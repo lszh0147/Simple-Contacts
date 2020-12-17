@@ -2,6 +2,7 @@ package com.simplemobiletools.contacts.pro.helpers
 
 import android.content.Context
 import com.simplemobiletools.commons.helpers.BaseConfig
+import com.simplemobiletools.commons.helpers.TAB_CONTACTS
 
 class Config(context: Context) : BaseConfig(context) {
     companion object {
@@ -17,7 +18,7 @@ class Config(context: Context) : BaseConfig(context) {
         set(showContactThumbnails) = prefs.edit().putBoolean(SHOW_CONTACT_THUMBNAILS, showContactThumbnails).apply()
 
     var showPhoneNumbers: Boolean
-        get() = prefs.getBoolean(SHOW_PHONE_NUMBERS, false)
+        get() = prefs.getBoolean(SHOW_PHONE_NUMBERS, true)
         set(showPhoneNumbers) = prefs.edit().putBoolean(SHOW_PHONE_NUMBERS, showPhoneNumbers).apply()
 
     var showOnlyContactsWithNumbers: Boolean
@@ -33,16 +34,15 @@ class Config(context: Context) : BaseConfig(context) {
         set(onContactClick) = prefs.edit().putInt(ON_CONTACT_CLICK, onContactClick).apply()
 
     var showContactFields: Int
-        get() = prefs.getInt(SHOW_CONTACT_FIELDS, SHOW_FIRST_NAME_FIELD or SHOW_SURNAME_FIELD or SHOW_PHONE_NUMBERS_FIELD or SHOW_EMAILS_FIELD or
-                SHOW_ADDRESSES_FIELD or SHOW_EVENTS_FIELD or SHOW_NOTES_FIELD or SHOW_GROUPS_FIELD or SHOW_CONTACT_SOURCE_FIELD)
+        get() = prefs.getInt(SHOW_CONTACT_FIELDS, SHOW_FIRST_NAME_FIELD or SHOW_SURNAME_FIELD or SHOW_PHONE_NUMBERS_FIELD or SHOW_CONTACT_SOURCE_FIELD)
         set(showContactFields) = prefs.edit().putInt(SHOW_CONTACT_FIELDS, showContactFields).apply()
 
     var showTabs: Int
-        get() = prefs.getInt(SHOW_TABS, ALL_TABS_MASK)
+        get() = prefs.getInt(SHOW_TABS, TAB_CONTACTS)
         set(showTabs) = prefs.edit().putInt(SHOW_TABS, showTabs).apply()
 
     var showCallConfirmation: Boolean
-        get() = prefs.getBoolean(SHOW_CALL_CONFIRMATION, false)
+        get() = prefs.getBoolean(SHOW_CALL_CONFIRMATION, true)
         set(showCallConfirmation) = prefs.edit().putBoolean(SHOW_CALL_CONFIRMATION, showCallConfirmation).apply()
 
     var showDialpadButton: Boolean
