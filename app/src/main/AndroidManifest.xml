@@ -26,9 +26,8 @@
     <application
         android:name=".App"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_launcher_name"
-        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -232,8 +231,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Red"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_red"
-            android:roundIcon="@mipmap/ic_launcher_red"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -245,8 +244,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Pink"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_pink"
-            android:roundIcon="@mipmap/ic_launcher_pink"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -258,8 +257,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Purple"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_purple"
-            android:roundIcon="@mipmap/ic_launcher_purple"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -271,8 +270,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Deep_purple"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_deep_purple"
-            android:roundIcon="@mipmap/ic_launcher_deep_purple"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -284,8 +283,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Indigo"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_indigo"
-            android:roundIcon="@mipmap/ic_launcher_indigo"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -297,8 +296,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Blue"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_blue"
-            android:roundIcon="@mipmap/ic_launcher_blue"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -310,8 +309,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Light_blue"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_light_blue"
-            android:roundIcon="@mipmap/ic_launcher_light_blue"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -323,8 +322,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Cyan"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_cyan"
-            android:roundIcon="@mipmap/ic_launcher_cyan"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -336,8 +335,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Teal"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_teal"
-            android:roundIcon="@mipmap/ic_launcher_teal"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -349,8 +348,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Green"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_green"
-            android:roundIcon="@mipmap/ic_launcher_green"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -362,8 +361,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Light_green"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_light_green"
-            android:roundIcon="@mipmap/ic_launcher_light_green"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -375,8 +374,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Lime"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_lime"
-            android:roundIcon="@mipmap/ic_launcher_lime"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -388,8 +387,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Yellow"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_yellow"
-            android:roundIcon="@mipmap/ic_launcher_yellow"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -401,8 +400,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Amber"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_amber"
-            android:roundIcon="@mipmap/ic_launcher_amber"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -414,8 +413,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Orange"
             android:enabled="true"
-            android:icon="@mipmap/ic_launcher"
-            android:roundIcon="@mipmap/ic_launcher"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -426,8 +425,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Deep_orange"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_deep_orange"
-            android:roundIcon="@mipmap/ic_launcher_deep_orange"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -439,8 +438,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Brown"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_brown"
-            android:roundIcon="@mipmap/ic_launcher_brown"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -452,8 +451,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Blue_grey"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_blue_grey"
-            android:roundIcon="@mipmap/ic_launcher_blue_grey"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
@@ -465,8 +464,8 @@
         <activity-alias
             android:name=".activities.SplashActivity.Grey_black"
             android:enabled="false"
-            android:icon="@mipmap/ic_launcher_grey_black"
-            android:roundIcon="@mipmap/ic_launcher_grey_black"
+            android:icon="@drawable/icon"
+            
             android:targetActivity=".activities.SplashActivity">
 
             <intent-filter>
